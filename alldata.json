@@ -1,0 +1,372 @@
+{
+  "expertMissions": [
+    {
+      "id": 1,
+      "name": "Zęby rano",
+      "icon": "assets/toothbrush.svg"
+    },
+    {
+      "id": 2,
+      "name": "Zęby wieczór",
+      "icon": "assets/toothbrush.svg"
+    },
+    {
+      "id": 3,
+      "name": "Posprzątać pokój",
+      "icon": "assets/room.svg"
+    },
+    {
+      "id": 4,
+      "name": "Poskładać zabawki",
+      "icon": "assets/block.svg"
+    },
+    {
+      "id": 5,
+      "name": "Opróżnić zmywarkę",
+      "icon": "assets/dishwasher.svg"
+    },
+    {
+      "id": 6,
+      "name": "Wstawić pranie",
+      "icon": "assets/laundry.svg"
+    },
+    {
+      "id": 7,
+      "name": "Pościelić łóżko",
+      "icon": "assets/bed.svg"
+    },
+    {
+      "id": 8,
+      "name": "Odkurzyć podłogę",
+      "icon": "assets/vacuum.svg"
+    },
+    {
+      "id": 9,
+      "name": "Umyć podłogę",
+      "icon": "assets/cleaning.svg"
+    },
+    {
+      "id": 10,
+      "name": "Nakryć stół",
+      "icon": "assets/cutlery.svg"
+    },
+    {
+      "id": 11,
+      "name": "Posprzątać ze stołu",
+      "icon": "assets/table.svg"
+    },
+    {
+      "id": 12,
+      "name": "Wynieść śmieci",
+      "icon": "assets/garbage.svg"
+    },
+    {
+      "id": 13,
+      "name": "Posprzątać po zwierzątku",
+      "icon": "assets/kennel.svg"
+    },
+    {
+      "id": 14,
+      "name": "Umyć auto",
+      "icon": "assets/car.svg"
+    },
+    {
+      "id": 15,
+      "name": "Zetrzeć kurze",
+      "icon": "assets/clean.svg"
+    },
+    {
+      "id": 16,
+      "name": "Nakarmić zwierzątko",
+      "icon": "assets/dog-food.svg"
+    },
+    {
+      "id": 17,
+      "name": "Wyprowadzić zwierzątko",
+      "icon": "assets/pet.svg"
+    },
+    {
+      "id": 18,
+      "name": "Rozpakować zakupy",
+      "icon": "assets/basket.svg"
+    },
+    {
+      "id": 19,
+      "name": "Pomoc w ogródku",
+      "icon": "assets/tree.svg"
+    },
+    {
+      "id": 20,
+      "name": "Umyć naczynia",
+      "icon": "assets/wash.svg"
+    },
+    {
+      "id": 21,
+      "name": "Odrobić pracę domową",
+      "icon": "assets/carpentry.svg"
+    },
+    {
+      "id": 22,
+      "name": "Przeczytać książkę",
+      "icon": "assets/book.svg"
+    },
+    {
+      "id": 23,
+      "name": "Poskładać ubrania",
+      "icon": "assets/shirt.svg"
+    },
+    {
+      "id": 24,
+      "name": "Ubrać się samemu",
+      "icon": "assets/shirt.svg"
+    }
+  ],
+  "expertGifts": [
+    {
+      "id": 1,
+      "name": "Wyjście na lody",
+      "icon": "assets/icecream.svg"
+    },
+    {
+      "id": 2,
+      "name": "Wyjście do kina",
+      "icon": "assets/tickets.svg"
+    },
+    {
+      "id": 3,
+      "name": "Wycieczka na weekend",
+      "icon": "assets/walk.svg"
+    },
+    {
+      "id": 4,
+      "name": "Aquapark ",
+      "icon": "assets/swimming-pool.svg"
+    },
+    {
+      "id": 5,
+      "name": "15 min na gry",
+      "icon": "assets/15-minutes.svg"
+    },
+    {
+      "id": 6,
+      "name": "30 min na gry",
+      "icon": "assets/30-minutes.svg"
+    },
+    {
+      "id": 7,
+      "name": "45 min na gry",
+      "icon": "assets/45-minutes.svg"
+    },
+    {
+      "id": 8,
+      "name": "Nowa gra",
+      "icon": "assets/remote-control.svg"
+    },
+    {
+      "id": 9,
+      "name": "Nowa zabawka",
+      "icon": "assets/gift2.svg"
+    },
+    {
+      "id": 10,
+      "name": "Wieczór gier",
+      "icon": "assets/dice.svg"
+    },
+    {
+      "id": 11,
+      "name": "Deser",
+      "icon": "assets/piece-of-cake.svg"
+    },
+    {
+      "id": 12,
+      "name": "Późniejszy powrót do domu",
+      "icon": "assets/history.svg"
+    },
+    {
+      "id": 13,
+      "name": "Deskorolka",
+      "icon": "assets/skateboard.svg"
+    },
+    {
+      "id": 14,
+      "name": "Niespodzianka",
+      "icon": "assets/gift2.svg"
+    },
+    {
+      "id": 15,
+      "name": "Klocki LEGO",
+      "icon": "assets/lego.svg"
+    }
+  ],
+  "parents": [
+    {
+      "id": 1,
+      "email": "anna.kowalska@gmail.com",
+      "password": "annakowalska",
+      "nick": "mama"
+    },
+    {
+      "id": 2,
+      "email": "halina.nowak@gmail.com",
+      "password": "halanowa",
+      "nick": "mamusia"
+    }
+  ],
+  "kids": [
+    {
+      "id": 1,
+      "name": "Kacper",
+      "parentId": 1,
+      "birth": "2012",
+      "login": "kac",
+      "password": "kacvegas"
+    },
+    {
+      "id": 2,
+      "name": "Zosia",
+      "parentId": 1,
+      "birth": "2012",
+      "login": "zosienka",
+      "password": "zosienka"
+    },
+    {
+      "id": 3,
+      "name": "Ania",
+      "parentId": 2,
+      "birth": "2005",
+      "login": "anna",
+      "password": "annaaa"
+    }
+  ],
+  "userMissions": [
+    {
+      "id": 1,
+      "name": "Odrobić pracę domową2",
+      "kidId": 1,
+      "icon": "assets/carpentry.svg",
+      "points": 6,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "confirm": true,
+      "start": "2015-12-30T23:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "name": "Pościelić łóżko",
+      "kidId": 1,
+      "icon": "assets/bed.svg",
+      "points": 1,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "confirm": true,
+      "start": "2015-12-30T23:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "name": "Odkurzyć podłogi",
+      "kidId": 1,
+      "icon": "assets/vacuum.svg",
+      "points": 4,
+      "days": [
+        0,
+        1
+      ],
+      "confirm": true,
+      "start": "2015-12-30T23:00:00.000Z"
+    },
+    {
+      "id": 4,
+      "name": "Posprzątać ze stołu",
+      "kidId": 2,
+      "icon": "assets/table.svg",
+      "points": 1,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "confirm": true,
+      "start": "2015-12-30T23:00:00.000Z"
+    },
+    {
+      "icon": "assets/gift.svg",
+      "name": "Test",
+      "points": 5,
+      "id": 5
+    },
+    {
+      "icon": "assets/gift.svg",
+      "name": "Testowa",
+      "points": 5,
+      "id": 6
+    },
+    {
+      "icon": "assets/gift.svg",
+      "name": "Testowa 3",
+      "points": 6,
+      "id": 7
+    },
+    {
+      "icon": "assets/gift.svg",
+      "name": "Testowa 5",
+      "points": 5,
+      "kidId": "1",
+      "id": 8
+    }
+  ],
+  "waitMissions": [
+    {
+      "id": 1,
+      "kidId": 1,
+      "userMissionsId": 1,
+      "doneDate": "2017-08-01T22:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "kidId": 1,
+      "userMissionsId": 1,
+      "doneDate": "2017-07-01T22:00:00.000Z"
+    }
+  ],
+  "doneMissions": [
+    {
+      "id": 1,
+      "kidId": 1,
+      "userMissionId": 1,
+      "doneDate": "2017-08-01T22:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "kidId": 1,
+      "userMissionId": 1,
+      "doneDate": "2017-07-01T22:00:00.000Z"
+    }
+  ],
+  "userGifts": [
+    {
+      "id": 1,
+      "kidId": 1,
+      "name": "Wyjście na wspólne lody",
+      "icon": "assets/icecream.svg",
+      "points": 12
+    }
+  ]
+}

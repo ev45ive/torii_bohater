@@ -1,0 +1,106 @@
+.circles {
+	border-radius: 100%;
+	position: fixed;
+}
+
+
+body.kid{
+	// .circles{background-color: transparentize(lighten($color_back_kid,15%),0.5)}
+
+	&.title-page {
+		.circle1 {background-color: $color_wait;}
+		// .circle2 {background-color: mix($color_wait, $color_done)}
+		// .circle3 {background-color:  $color_done;}
+		// .circle4 {background-color:  lighten(mix($color_base,$color_done),15%);}
+		// .circle5 {background-color:  lighten($color_base,15%);}
+		// .circle6 {background-color:  $color_base;}
+		// .circle7 {background-color:  mix($color_base, $color_back_kid,40%);}
+		.circle8 {background-color: $color_done;}
+		.circle9 {background-color: $color_undone;}
+		.circle10 {background-color: $color_base;}
+	}
+}
+
+// body.parent{
+// 	.circles{background-color: transparentize(darken($color_back_parent,15%),0.5)};
+
+// 	&.title-page {
+// 		background-color: darken($color_back_parent,30%);
+// 		.circle1 {background-color: mix($color_back_parent, $color_base,70%)};
+// 		.circle2 {background-color: mix($color_back_parent, $color_base,60%)};
+// 		.circle3 {background-color: mix($color_back_parent, $color_base,50%)};
+// 		.circle4 {background-color: darken(mix($color_back_parent, $color_done,70%),10%);}
+// 		.circle5 {background-color: mix($color_back_parent, $color_done,70%)};
+// 		.circle6 {background-color: darken($color_back_parent,10%);}
+// 		.circle7 {background-color:  darken($color_back_parent,20%);}
+// 	}
+// }
+
+@media (orientation: portrait){  
+	.circle1{
+		left: 20vw;
+		top: 275px;
+		margin-top: 25vw;
+		width: 60vw;
+		height: 60vw;
+	}
+
+	.circle8{
+		left: 2vw;
+		top: 275px;
+		margin-top: 70vw; 
+		width: 40vw;
+		height: 40vw;
+	}
+
+	.circle9{
+		right: 2vw;
+		top: 275px;
+		margin-top: 60vw; 
+		width: 30vw;
+		height: 30vw;
+	}
+
+	.circle10{
+		right: 10vw;
+		top: 275px;
+		margin-top: 3vw; 
+		width: 35vw;
+		height: 35vw;
+	}
+}
+
+@media (orientation: landscape){  
+    .circle1{
+		top: 50%;
+		margin-top:-30vh;
+		left: 50%;
+		margin-left: -30vh;
+        width: 60vh;
+		height: 60vh;
+	};
+
+	.circle8{
+		right: 50%;
+		margin-right: 22vh; 
+		bottom: 10vh; 
+		width: 40vh;
+		height: 40vh;
+	}
+
+	.circle9{
+		left: 50%;
+		margin-left: 13vh; 
+		bottom: 5vh;
+		width: 30vh;
+		height: 30vh;
+	}
+
+	.circle10{
+		right: 50%;
+		margin-right: -55vh;
+		top: 18vh;
+		width: 35vh;
+		height: 35vh;
+	}
+}
